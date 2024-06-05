@@ -1,2 +1,3 @@
 # AI-Builders
-snake classification model by pytorch
+snake classification model with resnet34 model
+
