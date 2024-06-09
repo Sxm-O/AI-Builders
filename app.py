@@ -25,7 +25,7 @@ for param in model.parameters():
 model.fc = nn.Linear(in_features=512, out_features=13)
 
 # Load the trained model's parameters
-model.load_state_dict(torch.load('C:/Users/USER - 14350/Desktop/AI builders/my_model3-2.pth', map_location=torch.device('cpu')))
+model.load_state_dict(torch.load('my_model3-2.pth', map_location=torch.device('cpu')))
  
 # Preprocess the image
 transform = transforms.Compose([
