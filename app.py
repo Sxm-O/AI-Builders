@@ -12,10 +12,7 @@ st.markdown("<h1 style='text-align: center;'>🐍 Snake Classification 🐍 </h1
 #set header
 st.markdown("<div style='text-align: left;'><br>Please upload a snake image</div>", unsafe_allow_html=True)
 
-[theme]
-base="light"
-backgroundColor="#f3fbc6"
-font="serif"
+
 
 
 
